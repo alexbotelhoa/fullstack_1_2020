@@ -11,10 +11,11 @@ const NavLink = ({ href, children }) => {
 
 export default function NavBar () {
    return (
-      <div className='bg-gray-500 py-4'>
-         <NavLink href='/sobre'>Sobre</NavLink>
+      <div className='bg-gray-500 py-4 text-center'>
+         <NavLink href='/'>Home</NavLink>
          <NavLink href='/cadastro'>Cadastro</NavLink>
          <NavLink href='/entrar'>Entrar</NavLink>
+         <NavLink href='/sobre'>Sobre</NavLink>
       </div>
    )
 }

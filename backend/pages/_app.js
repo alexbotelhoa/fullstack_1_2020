@@ -8,7 +8,7 @@ export default function App ({ Component, pageProps }) {
       <div>
          <Header />
          <div className='min-h-screen container mx-auto'>
-            <Component {...pageProps}/>,
+            <Component {...pageProps}/>
          </div>
          <Footer />
       </div>
