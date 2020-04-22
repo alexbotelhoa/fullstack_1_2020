@@ -1,0 +1,14 @@
+import React from 'react'
+
+export default function index () {
+   return (
+      <div>
+         <h1>Home</h1>
+         
+            <a href='/api/login' className='py-4 px-2 rounded bg-pink-800 font-bold shadow-xl hover:shadow block w-1/4 text-center mx-auto text-white'>Comece por aqui</a>
+         
+            <a href='/api/logout' className='py-4 px-2 rounded bg-pink-800 font-bold shadow-xl hover:shadow block w-1/4 text-center mx-auto text-white'>Termine por aqui</a>
+      
+      </div>
+   )
+}
