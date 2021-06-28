@@ -11,7 +11,7 @@
   "author": "Alex Botelho",
   "license": "ISC",
   "dependencies": {
-    "@auth0/nextjs-auth0": "^0.11.0",
+    "@auth0/nextjs-auth0": "^1.4.2",
     "dotenv": "^8.2.0",
     "next": "^9.3.4",
     "postcss-import": "^12.0.1",
